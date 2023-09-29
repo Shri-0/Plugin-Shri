@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="GQcIu2" name="Plugin-Shri" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="d2LoNB" name="Plugin-Shri">
+    <GROUP id="{72E59BF1-39FB-22D3-1829-7211FFC66E79}" name="Source">
+      <FILE id="HMx3en" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="WNzIn2" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="xvUuLO" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES/>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Plugin-Shri"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Plugin-Shri"/>
+      </CONFIGURATIONS>
+    </VS2017>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Plugin-Shri"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Plugin-Shri"/>
+      </CONFIGURATIONS>
+    </VS2019>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Plugin-Shri"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Plugin-Shri"/>
+      </CONFIGURATIONS>
+    </VS2022>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Plugin-Shri"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Plugin-Shri"/>
+      </CONFIGURATIONS>
+    </XCODE_IPHONE>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Plugin-Shri"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Plugin-Shri"/>
+      </CONFIGURATIONS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
