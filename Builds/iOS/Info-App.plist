@@ -12,11 +12,11 @@
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.PluginShri</string>
+    <string>com.yourcompany.Plugin</string>
     <key>CFBundleName</key>
-    <string>Plugin-Shri</string>
+    <string>Plugin</string>
     <key>CFBundleDisplayName</key>
-    <string>Plugin-Shri</string>
+    <string>Plugin</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleSignature</key>

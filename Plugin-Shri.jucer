@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="GQcIu2" name="Plugin-Shri" projectType="guiapp" useAppConfig="0"
+<JUCERPROJECT id="GQcIu2" name="Plugin" projectType="guiapp" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
-  <MAINGROUP id="d2LoNB" name="Plugin-Shri">
+  <MAINGROUP id="d2LoNB" name="Plugin">
     <GROUP id="{72E59BF1-39FB-22D3-1829-7211FFC66E79}" name="Source">
-      <FILE id="HMx3en" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
-      <FILE id="WNzIn2" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
-      <FILE id="xvUuLO" name="MainComponent.cpp" compile="1" resource="0"
-            file="Source/MainComponent.cpp"/>
+      <FILE id="HMx3en" name="Main.cpp" compile="1" resource="1" file="Source/Main.cpp"
+            xcodeResource="0"/>
+      <FILE id="WNzIn2" name="MainComponent.h" compile="0" resource="1" file="Source/MainComponent.h"
+            xcodeResource="1"/>
+      <FILE id="xvUuLO" name="MainComponent.cpp" compile="1" resource="1"
+            file="Source/MainComponent.cpp" xcodeResource="1"/>
     </GROUP>
   </MAINGROUP>
   <MODULES/>
