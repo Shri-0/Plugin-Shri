@@ -9,10 +9,10 @@
 namespace BinaryData
 {
     extern const char*   Main_cpp;
-    const int            Main_cppSize = 4098;
+    const int            Main_cppSize = 3615;
 
     extern const char*   MainComponent_h;
-    const int            MainComponent_hSize = 829;
+    const int            MainComponent_hSize = 856;
 
     extern const char*   MainComponent_cpp;
     const int            MainComponent_cppSize = 184;

@@ -1,4 +1,10 @@
 {
 	"C_Cpp.errorSquiggles": "disabled",
-	"C_Cpp.intelliSenseEngine": "Tag Parser"
+	"C_Cpp.intelliSenseEngine": "Tag Parser",
+	"C_Cpp.default.includePath": [
+		"/your/path/to/JUCE/**",
+		"/your/path/to/JUCE/",
+		"/Users/shrisimac/Desktop/JUCE ",
+		"/Users/shrisimac/Desktop/Plugin-Shri"
+	]
 }
